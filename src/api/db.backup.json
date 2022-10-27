@@ -1,55 +1,55 @@
 {
   "courses": [
     {
-      "name": "Ignite",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis commodo sem, in euismod ante consequat nec. Suspendisse eget molestie massa. Aliquam erat volutpat. Proin augue metus, volutpat non ullamcorper ac, vehicula in diam. Sed vehicula lectus eget augue aliquet, in suscipit nibh ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "name": "Angular cli",
+      "description": "Angular is an application-design framework and development platform for  creating efficient and sophisticated single-page apps. Angular is a development platform, built on TypeScript. As a platform, Angular includes:      A component-based framework for building scalable web applications.   A collection of well-integrated libraries that cover a wide variety of features, including routing, forms management, client-server communication, and more.     A suite of developer tools to help you develop, build, test, and update your code",
       "id": 1
     },
     {
-      "name": "Experts Club",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget elementum lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur at massa feugiat, ultrices orci ut, ullamcorper ante. In vel lectus placerat, congue turpis ut, tristique mauris. Curabitur id consequat mi. Etiam eleifend lacinia dictum. Aenean tortor augue, tristique facilisis velit in, sodales sollicitudin velit. Donec quam metus, tincidunt et sapien et, consequat tempor nisl. Mauris viverra quam at lectus posuere pulvinar.",
+      "name": "Vue.js",
+      "description": "Vue is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS and JavaScript, and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be it simple or complex.",
       "id": 2
     },
     {
       "id": 3,
-      "name": "Discover",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar aliquet nisi, non auctor eros dapibus non. Donec in mi luctus, bibendum lectus sed, aliquet dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla suscipit metus a est malesuada, id bibendum odio laoreet. Morbi vitae mi non enim feugiat accumsan. Donec pharetra sit amet massa sed mollis. Etiam pharetra massa in mi tincidunt, a auctor justo convallis."
+      "name": ".Net Core",
+      "description": ".NET is a free, cross-platform, open source developer platform for building many kinds of applications. .NET is built on a high-performance runtime that is used in production by many high-scale apps"
     }
   ],
   "students": [
     {
       "id": 1,
-      "name": "Pedro Henrique Lacombe",
-      "email": "pedro@gmail.com",
+      "name": "Luciano Pedesol",
+      "email": "luciano@gmail.com",
       "birthday": "1992-08-28",
       "courseId": 1
     },
     {
       "id": 2,
-      "name": "Ana Luisa",
-      "email": "aninha@gmail.com",
+      "name": "Moisés ",
+      "email": "moises@gmail.com",
       "birthday": "1993-04-01",
-      "courseId": 1
+      "courseId": 2
     },
     {
-      "name": "Leonardo da Silva",
-      "email": "leonardo@gmail.com",
+      "name": "Renan Gabriel",
+      "email": "Renan@gmail.com",
       "birthday": "1997-09-27",
-      "courseId": 1,
+      "courseId": 3,
       "id": 3
     },
     {
-      "name": "Mario Matheus de Andrades",
-      "email": "mario@gmail.com",
+      "name": "PH",
+      "email": "PH@gmail.com",
       "birthday": "1995-05-12",
       "courseId": 3,
       "id": 4
     },
     {
-      "name": "Vanessa Dias da Silva",
-      "email": "vanessa@gmail.com",
+      "name": "Fabio",
+      "email": "Fabio@gmail.com",
       "birthday": "1991-12-11",
-      "courseId": 1,
+      "courseId": 3,
       "id": 5
     }
   ]

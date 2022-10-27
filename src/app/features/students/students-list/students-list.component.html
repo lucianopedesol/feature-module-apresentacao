@@ -1,5 +1,5 @@
-<div class="d-flex align-items-center mb-4">
-  <div class="btn-group mr-3">
+<div class="d-flex align-items-center mb-4 gap-2">
+  <div class="btn-group mr-3 gap-2">
     <button type="button" class="btn btn-outline-purple rounded-circle mr-sm-2" routerLink="/students/new">
       <em class="fas fa-plus"></em>
     </button>
@@ -21,7 +21,7 @@
   <div class="col-sm-4 py-3" *ngFor="let student of students">
     <a class="card bg-gray" [routerLink]="['/students', student.id, 'edit']">
       <div class="card-body">
-        <h5 class="card-title text-truncate">{{studentShortName(student)}}</h5>
+        <h5 class="card-title text-truncate pb-1">{{studentShortName(student)}}</h5>
         <p class="card-text mb-0">
           {{student.birthday |date:'dd/MM/yyyy'}} - {{studentAge(student, 'years')}}
         </p>

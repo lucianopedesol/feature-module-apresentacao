@@ -10,7 +10,7 @@ import { Course } from 'src/app/shared/models/course';
 export class CoursesListComponent implements OnInit {
 
   courses: Course[] = [];
-
+  public loading: boolean = true;
   constructor(
     private courseService: CourseService
   ) { }
@@ -24,8 +24,14 @@ export class CoursesListComponent implements OnInit {
   }
 
   private loadCourses() {
-    this.courseService.findAll().subscribe(response => {
-      this.courses = response;
+    this.loading = true;
+    this.courseService.findAll().subscribe({
+      next: response => {
+        this.courses = response;
+      },
+      complete: () => {
+        this.loading = false
+      }
     });
   }
 

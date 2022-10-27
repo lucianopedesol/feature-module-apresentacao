@@ -7,9 +7,8 @@ import { Course } from '../../models/course';
   styleUrls: ['./course-card-list.component.scss']
 })
 export class CourseCardListComponent {
-
-  @Input()
-  courses!: Course[];
+  @Input() loading = false;
+  @Input() courses!: Course[];
 
   constructor() { }
 

@@ -1,4 +1,4 @@
-<div class="alert alert-purple" role="alert" *ngIf="!courses?.length">
+<div class="alert alert-purple" role="alert" *ngIf="!courses?.length && !loading">
   <h4 class="alert-heading">Oh no!!</h4>
   <p>No courses found! <a class="font-weight-bold" routerLink="/courses/new">Click here</a> to register a new course.
   </p>
@@ -8,7 +8,7 @@
   <div class="col-sm-4 py-3" *ngFor="let course of courses; trackBy: trackByCourseId">
     <div class="card bg-gray">
       <a class="card-body" [routerLink]="['/courses', course.id, 'edit']">
-        <h5 class="card-title text-truncate">{{course.name || 'Course title'}}</h5>
+        <h5 class="card-title text-truncate pb-1">{{course.name || 'Course title'}}</h5>
         <p class="card-text text-truncate">{{course.description || 'Course description'}}</p>
       </a>
       <a class="card-footer" [routerLink]="['/courses', course.id]">

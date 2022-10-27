@@ -1,4 +1,4 @@
-<div class="d-flex align-items-center mb-4">
+<div class="d-flex align-items-center mb-4 gap-2">
   <button class="btn btn-outline-purple rounded-circle mr-3" routerLink="/courses">
     <em class="fas fa-arrow-left"></em>
   </button>
@@ -9,7 +9,7 @@
 <h2 class="mb-3">Description</h2>
 <p>{{course.description}}</p>
 
-<div class="d-flex align-items-center my-4">
+<div class="d-flex align-items-center my-4 gap-2">
   <button class="btn btn-outline-purple rounded-circle mr-3" routerLink="/students/new"
     [queryParams]="{ cid: course.id }">
     <em class="fas fa-plus"></em>
